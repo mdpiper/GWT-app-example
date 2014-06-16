@@ -11,3 +11,5 @@ I've chosen to:
 
 - include JUnit in the project (in **lib/**), though this feels like cheating;
 - allow Travis CI to download GWT 2.5.1 (it's 106 MB) and unpack it in `$PWD`.
+
+Alright, let's see what happens.
