@@ -1,4 +1,4 @@
-package edu.colorado.mpiper.example.client
+package edu.colorado.mpiper.example.client;
 
 import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.core.client.JsArray;
