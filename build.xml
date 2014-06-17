@@ -11,9 +11,8 @@
   <!-- Access environment variables. See http://stackoverflow.com/a/18714086 -->
   <property environment="env"/>
 
-  <!-- Configure path to GWT SDK and Ant's JUnit -->
+  <!-- Configure path to GWT SDK -->
   <property name="gwt.sdk" location="${env.PWD}/gwt-2.5.1" />
-  <property name="ant_junit" location="/usr/share/ant/lib/ant-junit4.jar" />
 
   <path id="project.class.path">
     <pathelement location="war/WEB-INF/classes"/>
@@ -85,7 +84,7 @@
       source="1.5" target="1.5" nowarn="true"
       destdir="war/WEB-INF/classes"
       debug="true" debuglevel="lines,vars,source">
-      <classpath location="${ant_junit}"/>
+      <classpath location="lib/junit-4.11.jar"/>
       <classpath refid="project.class.path"/>
     </javac>
   </target>
@@ -102,7 +101,7 @@
         <path refid="project.class.path" />
         <pathelement location="${gwt.sdk}/validation-api-1.0.0.GA.jar" />
         <pathelement location="${gwt.sdk}/validation-api-1.0.0.GA-sources.jar" />
-        <pathelement location="${ant_junit}" />
+        <pathelement location="lib/junit-4.11.jar" />
       </classpath>
       <batchtest todir="reports/htmlunit.dev" >
         <fileset dir="test" >
@@ -126,7 +125,7 @@
         <path refid="project.class.path" />
         <pathelement location="${gwt.sdk}/validation-api-1.0.0.GA.jar" />
         <pathelement location="${gwt.sdk}/validation-api-1.0.0.GA-sources.jar" />
-        <pathelement location="${ant_junit}" />
+        <pathelement location="lib/junit-4.11.jar" />
       </classpath>
       <batchtest todir="reports/htmlunit.prod" >
         <fileset dir="test" >
