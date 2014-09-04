@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/mdpiper/GWTWebApp.svg?branch=master)](https://travis-ci.org/mdpiper/GWTWebApp)
+[![Build Status](https://travis-ci.org/mdpiper/GWT-app-example.svg?branch=master)](https://travis-ci.org/mdpiper/GWT-app-example)
 
 # GWT app example
 
