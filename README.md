@@ -1,7 +1,6 @@
 [![Build Status](https://travis-ci.org/mdpiper/GWTWebApp.svg?branch=master)](https://travis-ci.org/mdpiper/GWTWebApp)
 
-GWTWebApp
-=========
+# GWT app example
 
 This is the default [GWT](http://www.gwtproject.org/) web application
 with an [Ant](http://ant.apache.org/) build file,
